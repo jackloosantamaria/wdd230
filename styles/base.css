@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+main{
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    color: #004e98;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1{
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    color: white;
+    margin: auto;
+    max-width: 800px;
+    margin-left: -75px;
+    
+    
+  
+}
+
+header{
+    display: grid;
+    margin: auto;
+    max-width: 800px;
+    grid-template-columns: 1fr 1fr;
+    background-color: #004e98;
+}
+
+nav{
+    margin-top: -16px;
+    
+}
+
+nav a{
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    width: 768px;
+    margin-left: 227px;
+    
+}
+
+nav a:hover{
+    background-color: #004e98;
+    color: white;
+    
+   
+}
+ul {
+    list-style-type: none;
+}
+img{
+    max-width: 100px;
+    height: auto;
+    margin-left: 150px;
+}
+h2{
+    font-size: 1.2rem;
+    color: gray;
+    text-align: center;
+    margin: 1rem auto;
+    margin-top: 50px;
+}
+.card-grid{
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    list-style-type: none;
+}
+.card{
+    background-color: #ebebeb;
+    border: #004e98;
+    border-radius: 10px;
+    width: 750px;
+    margin-left: 30px;
+}
+h3{
+    background-color: #004e98;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card p{
+    text-align: center;
+}
+
+footer{
+    margin: auto;
+    background-color: #004e98;
+    max-width: 800px;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+#lastModified{
+    color: yellow;
+}
