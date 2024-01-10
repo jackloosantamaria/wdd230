@@ -59,7 +59,7 @@ img{
 }
 h2{
     font-size: 1.2rem;
-    color: gray;
+    color: black;
     text-align: center;
     margin: 1rem auto;
     margin-top: 50px;
@@ -75,6 +75,7 @@ h2{
     border-radius: 10px;
     width: 750px;
     margin-left: 30px;
+    color: black;
 }
 h3{
     background-color: #004e98;
