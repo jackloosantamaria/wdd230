@@ -38,8 +38,10 @@ nav a{
     font-size: 25px;
     background-color: black;
     color: white;
-    width: 768px;
-    margin-left: 227px;
+    left: -19px;
+    max-width: 769px;
+    margin: 0 auto;
+    position: relative;
     
 }
 
