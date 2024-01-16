@@ -22,7 +22,7 @@ h1{
 header{
     display: grid;
     margin: auto;
-    max-width: auto;
+    max-width: 800px;
     grid-template-columns: 1fr 1fr;
     background-color: #004e98;
     position: relative;
@@ -44,13 +44,16 @@ nav a{
     background-color: black;
     color: white;
     
-    max-width: auto;
+    max-width: 800px;
     
     margin: auto;
     position: relative;
     
 }
 
+.choices{
+    background-color: black;
+}
 nav a:hover{
     background-color: #004e98;
     color: white;
