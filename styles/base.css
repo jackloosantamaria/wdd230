@@ -11,18 +11,22 @@ h1{
     color: white;
     margin: auto;
     max-width: 800px;
-    margin-left: -75px;
-    
-    
-  
+    margin-left: -75px;  
+}
+
+#profile_image{
+    left: -100px;
+    position: relative;
 }
 
 header{
     display: grid;
-    margin: auto;
-    max-width: 800px;
+    margin: 0 auto;
+    width: 501px;
     grid-template-columns: 1fr 1fr;
     background-color: #004e98;
+    position: relative;
+    
 }
 
 nav{
@@ -39,7 +43,7 @@ nav a{
     background-color: black;
     color: white;
     left: -20px;
-    max-width: 768px;
+    max-width: 800px;
     margin: 0 auto;
     position: relative;
     
@@ -51,8 +55,12 @@ nav a:hover{
     
    
 }
+
+
+
 ul {
     list-style-type: none;
+  
 }
 img{
     max-width: 100px;
@@ -71,7 +79,7 @@ h2{
     grid-template-rows: repeat(10, 1fr);
     list-style-type: none;
 }
-.card{
+.card, .card2{
     background-color: #ebebeb;
     border: #004e98;
     border-radius: 10px;
