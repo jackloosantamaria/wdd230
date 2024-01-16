@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>[Jack Loo] - WDD 230 - Web Frontend Development</title>
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles/base.css">
     <meta name="description" content= "WDD 230 - Web Frontend Development of Jack Loo course assignment portal to add all work related to Frontend">
     <meta name="author" content="Jack Loo">
 
@@ -15,6 +14,9 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://lp-cms-production.imgix.net/2022-12/iStock-1264005950.jpg?auto=format&w=1920&h=640&fit=crop&crop=faces,edges&q=75">
     <meta property="og:url" content="https://https://jackloosantamaria.github.io/wdd230/index.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 
 
 </head>
@@ -24,7 +26,7 @@
         <h1>Jack Loo</h1>
     </header>
     <nav>
-        <ul>
+        <ul class="choices">
             <li><a href="#">Home</a></li>
             <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
             <li><a href="chamber/">Chamber</a></li>
@@ -35,33 +37,35 @@
     
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
-        <section class="card">
-            <h3>Learning Activities</h3>
-            <ul class="card-grid">
-                <li>01: <a href="lesson01/holygrail.html" target="_blank">Holy Grail</a> | <a href="https://codepen.io/Jack-Loo/pen/OJqXXBL" target="_blank">JS Pen</a></li>
-                <li>02: <a href="#"></a></li>
-                <li>03: <a href="#"></a></li>
-                <li>04: <a href="#"></a></li>
-                <li>05: <a href="#"></a></li>
-                <li>06: <a href="#"></a></li>
-                <li>07: <a href="#"></a></li>
-                <li>08: <a href="#"></a></li>
-                <li>09: <a href="#"></a></li>
-                <li>10: <a href="#"></a></li>
-            </ul>
-        </section>
+        <div class="main-grid-box">
+            <section class="card">
+                <h3>Learning Activities</h3>
+                <ul class="card-grid">
+                    <li>01: <a href="lesson01/holygrail.html" target="_blank">Holy Grail</a> | <a href="https://codepen.io/Jack-Loo/pen/OJqXXBL" target="_blank">JS Pen</a></li>
+                    <li>02: <a href="#"></a></li>
+                    <li>03: <a href="#"></a></li>
+                    <li>04: <a href="#"></a></li>
+                    <li>05: <a href="#"></a></li>
+                    <li>06: <a href="#"></a></li>
+                    <li>07: <a href="#"></a></li>
+                    <li>08: <a href="#"></a></li>
+                    <li>09: <a href="#"></a></li>
+                    <li>10: <a href="#"></a></li>
+                </ul>
+            </section>
 
-        <section class="card">
-            <h3>Information</h3>
-            <p>Panama City, Panama</p>
-            <p><span id="temperature"></span></p>
-            <p>Page Visits</p>
-        </section>
+            <section class="card2">
+                <h3>Information</h3>
+                <p>Panama City, Panama</p>
+                <p><span id="temperature"></span></p>
+                <p>Page Visits</p>
+            </section>
+        </div>
     </main>
     <footer>
-        <p>&copy; <span id="date"></span></p>
-        <p>Jack Loo</p>
-        <p>Panama City, Panama</p>
+        <p>&copy; <span id="date"></span> Jack Loo Panama City, Panama</p>
+        <!-- <p>Jack Loo</p>
+        <p>Panama City, Panama</p> -->
         <div id="lastModified"></div>
     </footer>
     <script src="scripts/getdates.js"></script>
