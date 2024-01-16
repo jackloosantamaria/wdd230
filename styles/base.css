@@ -22,7 +22,7 @@ h1{
 header{
     display: grid;
     margin: 0 auto;
-    width: 501px;
+    /* width: 501px; */
     grid-template-columns: 1fr 1fr;
     background-color: #004e98;
     position: relative;
