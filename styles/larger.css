@@ -1,0 +1,86 @@
+@media (min-width: 600px){
+    nav ul{
+        display: flex;
+        max-width: 800px;
+    }
+
+    nav ul li{
+        flex: 1 1 100%;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    h3{
+        margin-top: auto;
+    }
+
+    .choices{
+        flex-direction: row;
+        margin: auto;
+    
+    }
+
+    .choices li{
+        display:block;
+        flex: 1 1 100%;
+    }
+
+    .card-grid{
+        display: grid;
+        grid-template-rows: repeat(10, 1fr);
+        list-style-type: none;
+    }
+
+    .main-grid-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        list-style-type: none;
+    }
+
+    .card{
+        width: 410px;
+    }
+
+    .card2{
+        width: 300px;
+    }
+
+    .card2 p{
+        text-align: center;
+    }
+
+    header{
+        display: grid;
+        margin: 0 auto;
+        width: 800px;
+        grid-template-columns: 1fr 1fr;
+        background-color: #004e98;
+        position: relative;
+        
+    }
+
+    nav a{
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+        text-align: center;
+        font-size: 25px;
+        background-color: black;
+        color: white;
+        left: -20px;
+        max-width: 900px;
+        margin: 0 auto;
+        position: relative;
+        
+    }
+
+   
+}
