@@ -34,16 +34,19 @@
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
         /* left: -500px; */
-        position: relative;
+        /* position: relative; */
+        
         
     }
     #section2{
-        left: 45px;
+        left: 130px;
         position: relative;
+        max-width: 350px;
     }
     #section1{
         left: 60px;
         position: relative;
+        max-width: 350px;
     }
    
 
@@ -54,13 +57,17 @@
         background-color: #004e98;
         color: aliceblue;
         font-size: 1.2em;
-        top: 20px;
+        top: -10px;
         position: relative;
     }
 
     #section3{
         grid-column: 3/4;
         max-width: 350px;
+        left: 200px;
+        position: relative;
+        margin-bottom: 20px;
+        
     }
 
     section h3{
@@ -71,6 +78,7 @@
 
     body{
         font-family: 'quicksand', Arial, Helvetica, sans-serif;
+        min-width: 800px;
     }
 
     .background{
@@ -84,6 +92,6 @@
         background-color: #b8c0dd;
         position: relative;
         left: 0px;
-        height: 80px;
+        /* height: 42px; */
     }
 }
