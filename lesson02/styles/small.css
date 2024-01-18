@@ -3,25 +3,63 @@ header{
     color: aliceblue;
     margin: 0 auto;
     text-align: center;
+    position: relative;
+    top: -20px;
     
 }
 body{
     max-width: 400px;
-    text-align: center;
+    text-align: left;
     font-family: 'quicksand', Arial, Helvetica, sans-serif;
 }
 img{
     max-width: 380px;
+    position: relative;
+    top: 20px;
+    margin-bottom: 10px;
 }
 section{
     max-width: 380px;
     border: black 1px outset;
     left: 10px;
     position: relative;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 footer{
     background-color: #004e98;
     color: aliceblue;
     padding: 10px;
     width: auto;
+    position: relative;
+    top: -5px;
+}
+
+.background{
+    position: relative;
+    left: 0px;
+    background-color: #b8c0dd;
+}
+
+.background3{
+    position: relative;
+    left: 0px;
+    top: -62px;
+    background-color: #b8c0dd;
+    
+}#section1, #section2{
+    margin-bottom: 20px;
+    position: relative;
+    top: -20px;
+    position: relative;
+}
+#section3{
+    position: relative;
+    top:-20px
+}
+
+#section3 h4{
+    position: relative;
+    top:60px;
+   
 }
