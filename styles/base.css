@@ -17,6 +17,7 @@ h1{
 #profile_image{
     left: -100px;
     position: relative;
+    padding: 10px;
 }
 
 header{
