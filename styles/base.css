@@ -121,8 +121,12 @@ footer{
 
 #footerp{
     flex-direction: column;
-    
-    
+        
 }
+body{
+    max-width: 400px;
+}
+
+
 
 
