@@ -1,22 +1,27 @@
 @media (min-width: 600px){
     nav ul{
         display: flex;
-        max-width: 800px;
+        /* max-width: 800px; */
+        
     }
 
     nav ul li{
         flex: 1 1 100%;
+        
     }
 
     h1{
         font-size: 2.5rem;
-        margin-left: 0;
+        /* margin-left: 0; */
         text-align: center;
+        
     }
 
     h2{
         font-size: 2rem;
         text-align: center;
+        bottom: 20px;
+        position: relative;
     }
     h3{
         margin-top: auto;
@@ -30,8 +35,9 @@
     }
 
     .choices li{
-        display:block;
+        display: block;
         flex: 1 1 100%;
+        
     }
 
     .card-grid{
@@ -47,11 +53,15 @@
     }
 
     .card{
-        width: 410px;
+        width: 710px;
+        left: -240px;
+        position: relative;
     }
 
     .card2{
-        width: 300px;
+        width: 500px;
+        position: relative;
+        left: -230px;
     }
 
     .card2 p{
@@ -60,13 +70,16 @@
 
     header{
         display: grid;
-        margin: 0 auto;
-        max-width: 800px;
+        margin: auto;
+        /* width: auto; */
         grid-template-columns: 1fr 1fr;
         background-color: #004e98;
         position: relative;
         
+        
     }
+   
+
 
     nav a{
         display: block;
@@ -76,13 +89,24 @@
         font-size: 25px;
         background-color: black;
         color: white;
-        left: -20px;
-        max-width: 500px;
+        left: -41px;
+        width: 238px;
         margin: 0 auto;
         position: relative;
+        top: 15px;
         
     }
-
+    body{
+        max-width:100%;
+        font-family: 'quicksand', Arial, Helvetica, sans-serif;
+        
+    }
+    #profile_image{
+        position: relative;
+        left: 300px;
+        padding: 10px;
+    }
+  
 
 
    
