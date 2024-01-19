@@ -56,8 +56,10 @@ nav a{
 }
 nav a:hover{
     background-color: #004e98;
-    color: white;    
-   
+    color: white;
+    width: 368px;    
+    margin-left: -40px;
+    position: relative;
 }
 
 
