@@ -183,6 +183,20 @@ body{
     right: 1.0rem;
     
 }
+#menu-join::before{
+    content: "Join";
+}
+#menu-join{
+    font-size: 1.0rem;
+    border: 1px solid rgba(0,0,0,.3);
+    padding: 3px 7px 6px;
+    background-color: #eee;
+    color: #000;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.0rem;
+    border-radius: 8px;
+}
 .maps iframe{
     height: 100%;
     width: 100%;
