@@ -19,13 +19,17 @@ h1{
     position: relative;
     padding: 10px;
     top: 12px;
+    max-width: 100px;
+    height: auto;
+    margin-left: 150px;
 }.hero-box{
-    width: 100%;
-    
+    width: auto;
+    bottom: 16px;
+    position: relative;
 }
 
 #hero-image{
-    width: 100%;
+    width: 400px;
 }
 
 header{
@@ -76,11 +80,11 @@ ul {
     list-style-type: none;
   
 }
-img{
+/* img{
     max-width: 100px;
     height: auto;
     margin-left: 150px;
-}
+} */
 h2{
     font-size: 1.2rem;
     color: black;
