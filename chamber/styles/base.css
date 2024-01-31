@@ -20,6 +20,10 @@ h1{
     padding: 10px;
 }
 
+#hero-image{
+    width: 100%;
+}
+
 header{
     display: grid;
     margin: auto;
@@ -27,7 +31,6 @@ header{
     grid-template-columns: 1fr 1fr;
     background-color: #004e98;
     position: relative;
-    
     
 }
 
