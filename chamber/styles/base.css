@@ -19,6 +19,9 @@ h1{
     position: relative;
     padding: 10px;
     top: 12px;
+}.hero-box{
+    width: 100%;
+    
 }
 
 #hero-image{
@@ -173,7 +176,7 @@ body{
     color: #000;
     position: absolute;
     top: 0.5rem;
-    right: 1.6rem;
+    right: 1.3rem;
     
 }
 .maps iframe{
