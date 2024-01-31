@@ -247,8 +247,18 @@ body{
     top: -70px;
     width: 380px;
     left: 10px;
+}#company1-image{
+    position: relative;
+    top: 10px;    
+}#company2-image{
+    width: 70%;
+    position: relative;
+    top: 40px;
 }
-
+#company3-image{
+    position: relative;
+    top: 40px;
+}
 
 
 
