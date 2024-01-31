@@ -128,18 +128,22 @@ footer{
     text-align: center;
     color: white;
     font-size: 1.3rem;
+    position: relative;
+    top: -70px;
+    
 }
 #lastModified{
     color: yellow;
 }
 
-#footerp{
+#footerc{
     flex-direction: column;
         
 }
 body{
     max-width: 400px;
     text-align: center;
+    height: 800px;
 }
 .choices{
     display: flex;
@@ -214,14 +218,24 @@ body{
 }
 #chamber-events{
     background-color: #bfecff;
+    position: relative;
+    top: -50px;
 }#weather-box{
     background-color: #bfecff;
+    position: relative;
+    top: -80px;
 }#company1{
     background-color: #bfecff;
+    position: relative;
+    top: -80px;
 }#company2{
     background-color: #bfecff;
+    position: relative;
+    top: -75px;
 }#company3{
     background-color: #bfecff;
+    position: relative;
+    top: -70px;
 }
 
 
