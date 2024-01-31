@@ -189,9 +189,9 @@ body{
     right: 1.0rem;
     
 }
-#menu-join::before{
+/* #menu-join::before{
     content: "Join";
-}
+} */
 #menu-join{
     font-size: 1.0rem;
     border: 1px solid rgba(0,0,0,.3);
