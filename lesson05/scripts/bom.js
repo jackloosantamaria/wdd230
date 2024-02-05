@@ -44,6 +44,6 @@ button.addEventListener('click', function(){
         };
         
         document.querySelector("#time").innerHTML = new Date().toLocaleDateString("en-US", choice);
-        newTime.append(li);
+        newTime.append(choice);
     }
 });
