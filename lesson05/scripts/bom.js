@@ -15,35 +15,42 @@ button.addEventListener('click', function(){
         list.appendChild(li);
         
 
-        //remove the li elements
-        deleteButton.addEventListener('click', function() {
+        
+        
+        
+        
+        // let currentTime = document.getElementById("#time");
+        // setInterval(() => {
+            //     let list = new Date().getTime();
+            //     currentTime = new Date('#time').toLocaleTimeString()
+            // });
+            
+            let newTime = new Date();
+            
+            //document.querySelector('#time').textContent = newTime;
+            
+            const choice = {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+                weekday: "long",
+                hour: "numeric",
+                minute: "numeric",
+                second: "numeric"
+            };
+            
+            //document.querySelector("#time").innerHTML = new Date().toLocaleDateString("en-US", choice);
+            li.append(newTime.toLocaleString());
+            //input.focus();
+            
+            //remove the li elements
+            deleteButton.addEventListener('click', function() {
             list.removeChild(li);
             input.focus();
         });
 
         document.querySelector("input").focus();
         input.value = " ";
-
-        // let currentTime = document.getElementById("#time");
-        // setInterval(() => {
-        //     let list = new Date().getTime();
-        //     currentTime = new Date('#time').toLocaleTimeString()
-        // });
-
-        let newTime = new Date();
-        //document.querySelector('#time').textContent = newTime;
-        
-        const choice = {
-            year: "numeric",
-            month: "long",
-            day: "numeric",
-            weekday: "long",
-            hour: "numeric",
-            minute: "numeric",
-            second: "numeric"
-        };
-        
-        document.querySelector("#time").innerHTML = new Date().toLocaleDateString("en-US", choice);
-        list.append(newTime);
+      
     }
 });
