@@ -30,8 +30,8 @@ button.addEventListener('click', function(){
         //     currentTime = new Date('#time').toLocaleTimeString()
         // });
 
-        const newTime = new Date(document.list);
-        document.querySelector('#time').textContent = newTime;
+        let newTime = new Date();
+        //document.querySelector('#time').textContent = newTime;
         
         const choice = {
             year: "numeric",
@@ -44,6 +44,6 @@ button.addEventListener('click', function(){
         };
         
         document.querySelector("#time").innerHTML = new Date().toLocaleDateString("en-US", choice);
-        newTime.append(choice);
+        list.append(newTime);
     }
 });
