@@ -3,7 +3,7 @@ main{
     font-family: "Quicksand", Arial, Helvetica, sans-serif;
     color: #004e98;
     /* max-width: 800px; */
-    margin: auto;
+  
 }
 
 h1{
@@ -11,7 +11,28 @@ h1{
     color: white;
     margin: auto;
     max-width: 800px;
-    margin-left: -206px;  
+    margin-left: -156px;  
+    position: relative;
+    top: -10px;
+}
+
+header h2{
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    color: white;
+    margin: auto;
+    margin-left: 106px;
+    position: relative;
+    top: -35px;  
+}
+#li-logo{
+    position: relative;
+    top: -16px;
+    margin-left: 10px;
+}
+#fb-logo{
+    position: relative;
+    top: -60px;
+    margin-left: 290px;
 }
 
 #profile_image{
@@ -22,7 +43,15 @@ h1{
     max-width: 100px;
     height: auto;
     margin-left: 150px;
-}.hero-box{
+}
+#pro_image{
+    padding: 10px;
+    position: relative;
+    max-width: 100px;
+    margin-left: -270px;
+}
+
+.hero-box{
     width: auto;
     bottom: 16px;
     position: relative;
@@ -39,7 +68,8 @@ header{
     grid-template-columns: 1fr 1fr;
     background-color: #004e98;
     position: relative;
-    
+    padding: 10px;
+    height: 100px;
 }
 
 nav{
@@ -111,8 +141,8 @@ h2{
 }
 
 h3{
-    background-color: #004e98;
-    color: white;
+    background-color: #bfecff;
+    color: #004e98;
     text-align: center;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -129,22 +159,33 @@ footer{
     color: white;
     font-size: 1.3rem;
     position: relative;
-    top: -70px;
+    top: 150px;
+    padding: 10px;
+    height: 190px;
+    bottom: 0;
     
 }
 #lastModified{
     color: yellow;
+    position: relative;
+    top: -90px;
 }
 
 #footerc{
     flex-direction: column;
-        
+    position: relative;
+    top: 20px;
+    height: 180px;    
+}#footerc p{
+    position: relative;
+    top: -100px;
+    margin-left: 60px;
 }
+
 body{
     max-width: 400px;
     text-align: center;
-    height: 800px;
-    
+  
 }
 .choices{
     display: flex;
@@ -221,34 +262,84 @@ body{
 #chamber-events{
     background-color: #bfecff;
     position: relative;
-    top: -50px;
-    width: 380px;
+    top: 5px;
+    width: 370px;
     left: 10px;
-}#weather-box{
+    border-radius: 10px;
+    padding: 5px;
+    height: 260px;
+    box-shadow: 0 0 40px #004e98;
+}
+#chamber-events h2, h3, p{
+    top: -40px;
+    position: relative;
+}
+
+#weather-box{
     background-color: #bfecff;
     position: relative;
-    top: -80px;
-    width: 380px;
+    top: 30px;
+    width: 370px;
     left: 10px;
-}#company1{
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 40px #004e98;
+}
+#weather-box h2{
+    position: relative;
+    top: -45px;
+}.weather{
+    position: relative;
+    top: -40px;
+}
+
+#company1{
     background-color: #bfecff;
     position: relative;
-    top: -80px;
-    width: 380px;
+    top: 55px;
+    width: 370px;
     left: 10px;
-}#company2{
+    border-radius: 10px;
+    padding: 5px;
+    height: 390px;
+    box-shadow: 0 0 40px #004e98;
+}
+#company1 h2{
+    position: relative;
+    top: -30px;
+    margin-bottom: 30px;
+}
+
+#company2{
     background-color: #bfecff;
     position: relative;
-    top: -75px;
-    width: 380px;
+    top: 80px;
+    width: 370px;
     left: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 40px #004e98;
+}
+#company2 p{
+    position: relative;
+    top: 5px;
 }#company3{
     background-color: #bfecff;
     position: relative;
-    top: -70px;
-    width: 380px;
+    top: 110px;
+    width: 370px;
     left: 10px;
-}#company1-image{
+    border-radius: 10px;
+    padding: 5px;
+    height: 450px;
+    box-shadow: 0 0 40px #004e98;
+}
+#company3 h2{
+    position: relative;
+    margin-bottom: 55px;
+}
+
+#company1-image{
     position: relative;
     top: 10px;    
 }#company2-image{
