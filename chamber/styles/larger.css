@@ -17,21 +17,19 @@
         text-align: center;
         position: relative;
         left: -340px;
+        top: -10px;
     }
-    header h2{
-        position: relative;
-        left: 28px;
-    }
+  
     #li-logo{
         position: relative;
-        top: -45px;
-        left: 570px;
+        top: -42px;
+        left: 1250px;
         width: 33px;
 
     }#fb-logo{
         position: relative;
-        left: 1280px;
-        top: -82px;
+        left: 630px;
+        top: -42px;
         width: 30px;
     }
 
@@ -116,8 +114,8 @@
     }
     #mode{
         position: relative;
-        top: -77px;
-        left: 170px;
+        top: -67px;
+        left: 830px;
         font-size: 1.3rem;
         color: #fff;
     }
