@@ -11,32 +11,33 @@ h1{
     color: white;
     margin: auto;
     max-width: 800px;
-    margin-left: -140px;  
+    margin-left: -150px;
     position: relative;
-    top: -10px;
+    top: 3px;
+    font-size: 1.5rem;
 }
 
-header h2{
+/* header h2{
     font-family: "Quicksand", Arial, Helvetica, sans-serif;
     color: white;
     margin: auto;
     left: 100px;
     position: relative;
-    top: -35px;  
-}
+    top: -35px;
+} */
 #li-logo{
     position: relative;
-    top: -6px;
-    left: -100px;
+    top: -4px;
+    left: 130px;
 }
 #fb-logo{
     position: relative;
-    top: -30px;
-    left: 139px;
+    top: -5px;
+    left: -109px;
 }
 
 #profile_image{
-    left: -140px;
+    left: -150px;
     position: relative;
     padding: 10px;
     top: 12px;
@@ -74,7 +75,7 @@ header{
 
 nav{
     margin-top: -16px;
-    
+
 }
 
 nav a{
@@ -85,12 +86,12 @@ nav a{
     font-size: 25px;
     background-color: black;
     color: white;
-    
+
     max-width: 800px;
-    
+
     margin: auto;
     position: relative;
-    
+
 }
 
 .choices{
@@ -99,7 +100,7 @@ nav a{
 nav a:hover{
     background-color: #004e98;
     color: white;
-    width: 368px;    
+    width: 368px;
     margin-left: -40px;
     position: relative;
 }
@@ -107,13 +108,13 @@ nav a:hover{
     position: relative;
     top: -25px;
     color: #fff;
-    right: 80px;
+    right: -200px;
 }
 
 
 ul {
     list-style-type: none;
-  
+
 }
 /* img{
     max-width: 100px;
@@ -168,7 +169,7 @@ footer{
     padding: 10px;
     height: 190px;
     bottom: 0;
-    
+
 }
 #lastModified{
     color: yellow;
@@ -180,7 +181,7 @@ footer{
     flex-direction: column;
     position: relative;
     top: 20px;
-    height: 180px;    
+    height: 180px;
 }#footerc p{
     position: relative;
     top: -100px;
@@ -190,7 +191,7 @@ footer{
 body{
     max-width: 400px;
     text-align: center;
-    
+
 }
 .choices{
     display: flex;
@@ -225,7 +226,7 @@ body{
 .open li a{
     display: block;
 }#menu{
-    
+
     font-size: 1.5rem;
     border: 1px solid rgba(0,0,0,.3);
     padding: 3px 7px 6px;
@@ -234,7 +235,7 @@ body{
     position: absolute;
     top: 0.5rem;
     right: 1.0rem;
-    
+
 }
 /* #menu-join::before{
     content: "Join";
@@ -346,7 +347,7 @@ body{
 
 #company1-image{
     position: relative;
-    top: 10px;    
+    top: 10px;
 }#company2-image{
     width: 70%;
     position: relative;
