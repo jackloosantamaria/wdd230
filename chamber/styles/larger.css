@@ -16,7 +16,23 @@
         /* margin: 0 auto; */
         text-align: center;
         position: relative;
-        left: -70px;
+        left: -340px;
+    }
+    header h2{
+        position: relative;
+        left: 28px;
+    }
+    #li-logo{
+        position: relative;
+        top: -45px;
+        left: 570px;
+        width: 33px;
+
+    }#fb-logo{
+        position: relative;
+        left: 1000px;
+        top: -80px;
+        width: 30px;
     }
 
     h2{
@@ -30,6 +46,8 @@
         font-size: 1.5rem;
         background-color: #bfecff;
         color: #004e98;
+        position: relative;
+        top: -13px;
     }
 
     .choices{
@@ -49,6 +67,11 @@
         display: grid;
         grid-template-rows: repeat(10, 1fr);
         list-style-type: none;
+    }
+    main{
+        
+        height: 1350px;
+        padding-bottom: 0;
     }
 
     .main-grid-box{
@@ -91,6 +114,13 @@
         width: 1349px;
         position: relative;
     }
+    #mode{
+        position: relative;
+        top: -77px;
+        left: 170px;
+        font-size: 1.3rem;
+        color: #fff;
+    }
 
 
     nav a{
@@ -111,8 +141,16 @@
     body{
         max-width:100%;
         font-family: 'Quicksand', Arial, Helvetica, sans-serif;
-        height: 600px;
+        height: 1350px;
     }
+
+    #pro_image{
+        position: relative;
+        right: 450px;
+        top: 20px;
+        width: 100%;
+    }
+
     #profile_image{
         position: relative;
         left: -140px;
@@ -143,8 +181,15 @@
     } */
     footer{
         position: relative;
-        top: -100px;
+        top: -70px;
         color: white;
+        bottom: 0;
+        width: 100%;
+    }
+    #footerc{
+        position: relative;
+        top:  10px;
+        margin: 0 auto;      
     }
     
     #menu-join{
@@ -167,14 +212,25 @@
         left: 30px;
         height: 300px;
     }
+    .weather{
+        position: relative;
+        top: 5px;
+    }
     #company1{
         position: relative;
         top: -135px;
         left: 47px;
-    }#company3{
+        height: 550px;
+    }
+    #company1 h2{
+        position: relative;
+        top: 3px;
+    }
+    #company3{
         position: relative;
         top: -135px;
         left: 30px;
+        height: 550px;
     }#company2{
         position: relative;
         top: -135px;
