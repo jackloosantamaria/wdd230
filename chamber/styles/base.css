@@ -3,7 +3,7 @@ main{
     font-family: "Quicksand", Arial, Helvetica, sans-serif;
     color: #004e98;
     /* max-width: 800px; */
-  
+    height: 2140px;
 }
 
 h1{
@@ -11,7 +11,7 @@ h1{
     color: white;
     margin: auto;
     max-width: 800px;
-    margin-left: -156px;  
+    margin-left: -140px;  
     position: relative;
     top: -10px;
 }
@@ -20,19 +20,19 @@ header h2{
     font-family: "Quicksand", Arial, Helvetica, sans-serif;
     color: white;
     margin: auto;
-    margin-left: 106px;
+    left: 100px;
     position: relative;
     top: -35px;  
 }
 #li-logo{
     position: relative;
-    top: -16px;
-    margin-left: 10px;
+    top: -6px;
+    left: -100px;
 }
 #fb-logo{
     position: relative;
-    top: -60px;
-    margin-left: 290px;
+    top: -30px;
+    left: 139px;
 }
 
 #profile_image{
@@ -103,7 +103,12 @@ nav a:hover{
     margin-left: -40px;
     position: relative;
 }
-
+#mode{
+    position: relative;
+    top: -25px;
+    color: #fff;
+    right: 80px;
+}
 
 
 ul {
@@ -159,7 +164,7 @@ footer{
     color: white;
     font-size: 1.3rem;
     position: relative;
-    top: 150px;
+    top: 0px;
     padding: 10px;
     height: 190px;
     bottom: 0;
@@ -185,7 +190,7 @@ footer{
 body{
     max-width: 400px;
     text-align: center;
-  
+    
 }
 .choices{
     display: flex;
