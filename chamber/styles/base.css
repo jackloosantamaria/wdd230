@@ -78,6 +78,7 @@ h2{
     display: inline-block;
 }
 
+
 /************button****************/
 
 #menu-join{
@@ -141,7 +142,7 @@ h2{
 
 
 .main-grid-box{
-    display: grid;
+    /* display: grid; */
     padding: 0px 16px;
 }
 
@@ -189,7 +190,7 @@ body{
     color: #004e98;
 }
 
-.commpany img{
+.company img{
     max-height: fit-content;
     max-width: 200px;
     border-radius: 20px;
