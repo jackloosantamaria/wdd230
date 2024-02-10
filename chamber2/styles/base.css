@@ -140,8 +140,8 @@ h2{
 }
 
 
-.main-grid-box{
-    /* display: grid; */
+#main-grid-box{
+    display: grid;
     padding: 0px 16px;
 }
 
