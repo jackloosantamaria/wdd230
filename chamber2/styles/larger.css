@@ -16,8 +16,9 @@
         padding: 0px 20px;
     }
 
-    .main-grid-box{
-        gap: 2rem;
+    #main-grid-box{
+        gap: 3rem;
+        
     }
 
     #mode{
