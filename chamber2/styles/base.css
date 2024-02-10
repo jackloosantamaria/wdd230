@@ -10,7 +10,7 @@ header{
     gap: 1rem;
     padding: 5px;
     background-color: #004e98;
-    height: 65px;
+    height: 85px;
     color: white;
 }
 
@@ -30,7 +30,7 @@ h2{
 
 #mode{
     position: relative;
-    right: 1.8rem;
+    right: 5rem;
     font-size: .75rem;
 }
 
@@ -62,19 +62,19 @@ h2{
 
 /*****************logos*******************/
 
-.logo{
+#logo{
     margin-right: 50px;
     min-width: 100px;
     justify-self: end;
 }
 
-.logo img{
+#logo img{
     border-radius: 25px;
-    width: 200px;
+    width: 30px;
     margin: auto;
 }
 
-.logo a{
+#logo a{
     display: inline-block;
 }
 
@@ -104,8 +104,8 @@ h2{
     background-color: #eee;
     color: #000;
     position: absolute;
-    top: 0.8rem;
-    right: .2rem;
+    top: 1.5rem;
+    right: .9rem;
     border-radius: 10px;
 }
 #menu::before{
