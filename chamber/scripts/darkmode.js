@@ -1,6 +1,6 @@
 const modeButton = document.querySelector("#mode");
 const header = document.querySelector("header");
-const main = document.querySelector("main");
+const main = document.querySelector(".main-grid-box");
 const footer = document.querySelector("footer");
 const menu = document.querySelector(".choices");
 
