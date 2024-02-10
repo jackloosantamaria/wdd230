@@ -1,0 +1,28 @@
+@media screen and (min-width: 1125px){
+    header{
+        padding: 5px 100px;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    #companies{
+        display: grid;
+        grid-column: span 2;
+        width: 100%;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1rem;
+        padding: 0px 20px;
+    }
+
+    .main-grid-box{
+        gap: 2rem;
+    }
+
+    #mode{
+        font-size: 1.5rem;
+        left: 6rem;
+    }
+
+}
