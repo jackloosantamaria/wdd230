@@ -136,6 +136,34 @@
         bottom: 0;
         margin-top: 100px;
     }
+
+   
+    .hero img{
+        right: 16rem;
+        position: relative;
+        height: auto;
+        margin-top: 0;    
+            
+    }
+    .herolabel{
+        position: absolute;
+        top: 300px;
+        left: 300px;
+        background: radial-gradient(#fff, #4D5B97);
+        border: 1px solid rgba(0,0,0,.75);
+        padding: .25rem;
+        box-shadow: 0 0 3rem #fff;
+        opacity: 0.75;
+    }
+
+    .herolabel p{
+        margin: 0;
+        font-family: "Quicksand", Arial, Helvetica, sans-serif;
+        font-size: 1.8rem;
+        font-weight: 700;
+        padding: .25rem;
+    }
+ 
     
 
 
