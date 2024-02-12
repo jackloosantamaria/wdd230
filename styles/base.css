@@ -75,7 +75,7 @@ ul {
     list-style-type: none;
   
 }
-img{
+#profile_image{
     max-width: 100px;
     height: auto;
     margin-left: 150px;
@@ -194,6 +194,30 @@ body{
     bottom: 10px;
     margin: auto;
 }
+.hero img{
+    /* width: 100%;
+    height: auto; */
+    margin-top: -1rem;
+}
+.herolabel{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    background: radial-gradient(#fff, #4D5B97);
+    border: 1px solid rgba(0,0,0,.75);
+    padding: .1rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+}
+
+.herolabel p{
+    margin: 0;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: .1rem;
+}
+
 
 
 
