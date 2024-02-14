@@ -48,7 +48,23 @@
     <main>
         <div id="hero-box">
             <div id="hero-i">
-                <img id="hero-image" src="images/why-do-foreign_1_75.webp" alt="hero image">
+                <!-- <img id="hero-image" src="images/why-do-foreign_1_75.webp" alt="hero image"> -->
+                <picture>
+                    <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/hero-medium.webp" media="(max-width: 960px)">
+                    <img id="hero-image" src="images/hero-large.webp" alt="Hero Image Large Size">
+                </picture>
+                <div class="smalllabel">
+                    <p>Small</p>
+                </div>
+
+                <div class="mediumlabel">
+                    <p>Medium</p>
+                </div>
+
+                <div class="largelabel">
+                    <p>Large</p>
+                </div>
             </div>
             <a id="menu-join" href="#">Join Us</a>
         </div>
@@ -69,8 +85,13 @@
                 <h2>Weather Information</h2>
                 <h3>Panama City, Panama</h3>
                 <p>Today</p>
-                <p>Sunshine: 32°C</p>
+                <p>Sunshine: <span id="temp"></span> 57°F</p>
                 <p>Page Visits: 15</p>
+                <div class="weather2">
+                    <p>Wind Speed: <span id="windspeed">15 mph</span></p>
+                    <p>Wind Chill: <span id="windchill"></span> °</p>
+                </div>
+
                 
             </section>
 
@@ -127,5 +148,6 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
