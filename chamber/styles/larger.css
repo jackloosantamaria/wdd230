@@ -25,6 +25,10 @@
         left: 6rem;
     }
 
+    .smalllabel{
+        display: none;
+    }
+
     .mediumlabel{
         display: none;
     }
