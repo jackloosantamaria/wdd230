@@ -239,7 +239,19 @@ footer{
     text-align: center;
     color: white;
 }
-
+.mediumlabel{
+    display: none;
+}
+.largelabel{
+    display: none;
+}
+.smalllabel{
+    display: flex;
+    position: absolute;
+    margin-top: -2rem;
+    font-size: 1.5rem;
+    color: white;
+}
 
 
 
