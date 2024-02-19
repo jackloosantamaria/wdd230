@@ -156,14 +156,14 @@
         
         top: 10px;
         left: -100px;
-        background: radial-gradient(#fff, #4D5B97);
+        background: radial-gradient(#004e98, #4D5B97);
         border: 1px solid rgba(0,0,0,.75);
         padding: .25rem;
         box-shadow: 0 0 3rem #fff;
         opacity: 0.75;
     }
 
-    .herolabel p{
+    .herolabel h1{
         margin: 0;
         font-family: "Quicksand", Arial, Helvetica, sans-serif;
         font-size: 1.8rem;
