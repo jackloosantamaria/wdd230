@@ -5,7 +5,7 @@ const choice = {
     year: "numeric"
 };
 
-document.querySelector("#date").innerHTML = new Date().toLocaleDateString("en-US", choice);
+document.querySelector("#date").innerHTML = new Date().toLocaleDateString('en-US', choice);
 
 //Hamburger Button
 
