@@ -162,12 +162,13 @@
         opacity: 0.75;
     }
 
-    .herolabel h1{
+    .herolabel h3{
         margin: 0;
         font-family: "Quicksand", Arial, Helvetica, sans-serif;
         font-size: 1.8rem;
         font-weight: 700;
         padding: .25rem;
+        
     }
    
  
