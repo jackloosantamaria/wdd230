@@ -57,16 +57,16 @@
     }
 
     .card{
-        width: 610px;
-        left: -240px;
+        width: 580px;
+        left: -100px;
         position: relative;
     }
 
     .card2{
-        width: 400px;
+        width: 230px;
         position: relative;
-        left: -230px;
-        height: 435px;
+        left: -100px;
+        height: 255px;
         top: 50px;
     }
 
@@ -84,9 +84,7 @@
         
         
     }
-   
-
-
+  
     nav a{
         display: block;
         padding: 1rem;
@@ -118,10 +116,11 @@
     .maps iframe{
         
         height: 480px;
-        left: 0;
+        left: 150px;
         top: 50px;
         position: absolute;
-        padding: 10px;
+        padding: 5px;
+    
     }
     .maps{
         
@@ -136,15 +135,15 @@
     }
     footer{
         position: relative;
-        /* top: 20px; */
+        top: 120px;
         width: 100%;
         bottom: 0;
         margin-top: 100px;
     }
-
+    
    
     .hero img{
-        right: 10rem;
+        right: 0rem;
         position: relative;
         height: auto;
         margin-top: 0;   
@@ -155,7 +154,7 @@
     .herolabel{
         
         top: 10px;
-        left: -100px;
+        left: 40px;
         background: radial-gradient(#004e98, #4D5B97);
         border: 1px solid rgba(0,0,0,.75);
         padding: .25rem;
