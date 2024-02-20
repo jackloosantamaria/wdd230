@@ -214,12 +214,13 @@ body{
     opacity: 0.75;
 }
 
-.herolabel h1{
+.herolabel h3{
     margin: 0;
     font-family: "Quicksand", Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
     padding: .1rem;
+    color: white;
 }
 .hero{
     /* margin: 0; */
