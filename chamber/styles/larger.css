@@ -65,7 +65,7 @@
 }
 
 .discover-images{
-    width: 60%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -74,6 +74,10 @@
 .gallery img{
     width: 100%;
     height: auto;
+}
+
+figure{
+    width: 100%;
 }
 
 
