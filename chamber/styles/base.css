@@ -253,5 +253,52 @@ footer{
     color: #004e98;
 }
 
+/*********************************************/
 
+/*Discover Page*/
 
+.discover-images{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+figcaption{
+    text-align: center;
+    font-style: italic;
+}
+
+.aside{
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #004e98;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.gallery h2{
+    text-align: center;
+    display: block;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+th, td{
+    border: 1px solid #004e98;
+    padding: 8px;
+}
+
+th{
+    background-color: #f2f2f2;
+}
