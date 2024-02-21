@@ -67,4 +67,18 @@
         font-size: 2rem;
         color: #004e98;
     }
+
+    /*********************************************/
+
+/*Discover Page*/
+
+.discover-images{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
 }
