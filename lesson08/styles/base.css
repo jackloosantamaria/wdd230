@@ -1,0 +1,76 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body{
+    font-size: 16px;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif
+}
+
+main{
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+form fieldset{
+    margin: 2rem 0;
+    border: 1pc solid #004e98;
+    border-radius: #4d5e97;
+    padding: 0.5rem 2%;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
+
+form legend{
+    color: #004e98;
+    margin: 0.1rem;
+    padding: 0.5rem;
+}
+
+form label.top input, form label.top select{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label .sbs{
+    display: block;
+    padding: 0.75rem 0;
+    color: #555;
+}
+
+form input.submitbutton{
+    border: none;
+    background-color: #984700;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required{
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+
+.navigation:after{
+    content: "";
+    display: table;
+    clear: both;
+}
