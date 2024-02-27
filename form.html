@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 230 Form</title>
+    <meta name="author" content="Jack Loo">
+    <meta name="description" content="Web Page of Form for WDD230 of Jack Loo">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <img id="profile_image" src="images/jackfoto1.webp" alt="profile_picture">
+        <h1>Jack Loo</h1>
+    </header>
+
+    <button id="menu"></button>
+
+    <nav>
+        <ul class="choices">
+            <li><a href="#">Home</a></li>
+            <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="https://byui.edu" target="_blank">BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank">Scripture</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Course Proposal Application</h1>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>Application Information</legend>
+                <label class="top">Username* <input type="text" name="id" required></label>
+                <label class="top" for="keyphrase">Password*</label>
+                <input type="text" id="keyphrase" name="keyphrase" pattern="[a-zA-Z -]{8}" placeholder="At least 8 characters long. No numbers.">
+                <label class="top" for="keyphrase2">Re-enter Your Key Password</label>
+                <input type="text" id="keyphrase2" name="keyphrase2">
+
+                <label class="top">Email* <input type="text" name="email" placeholder="someone@email.com" pattern="[a-zA-Z0-9.%+-]+@byui\.edu$" required></label>
+                <label class="top"> Phone <input type="tel" name="Phone" placeholder="1234567890"></label>
+                <label for="r">Page Rating</label>
+                <div id="rangevalue">0</div>
+                <input class="top" type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </fieldset>
+            <input type="submit" value="Send Rating" class="submitbutton">
+    </main>
+
+    <footer>
+        <div id="footerp">
+            <p>&copy; <span id="date"></span> Jack Loo Panama City, Panama</p>
+            <!-- <p>Jack Loo</p>
+            <p>Panama City, Panama</p>  -->
+            </div>
+            <div id="lastModified"></div>
+    </footer>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
