@@ -19,11 +19,14 @@ header{
 
 h1{
     font-family: "Quicksand", Arial, Helvetica, sans-serif;
-    color: black;
+    color: white;
     margin: auto;
     max-width: 800px;
     margin-left: -75px;  
     padding: 20px;
+}
+main h1{
+    color: #000;
 }
 
 nav a{
