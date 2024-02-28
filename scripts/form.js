@@ -6,7 +6,7 @@ kp2.addEventListener("focusout", verify);
 
 function verify(){
     if(kp1.value !== kp2.value){
-        showdisplay.textContent = "!Password does not match";
+        showdisplay.textContent = "Password does not match!";
         showdisplay.style.visibility = "show";
         kp2.style.backgroundColor = "#fff0f3";
         kp2.value = "";
