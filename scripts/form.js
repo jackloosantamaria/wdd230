@@ -1,12 +1,12 @@
 const kp1 = document.querySelector("#keyphrase");
 const kp2 = document.querySelector("#keyphrase2");
-const showdisplay = document.querySelector("display");
+const showdisplay = document.querySelector("#display");
 
 kp2.addEventListener("focusout", verify);
 
 function verify(){
     if(kp1.value !== kp2.value){
-        showdisplay.textContent = "!Key Phrases do not match";
+        showdisplay.textContent = "!Password does not match";
         showdisplay.style.visibility = "show";
         kp2.style.backgroundColor = "#fff0f3";
         kp2.value = "";
