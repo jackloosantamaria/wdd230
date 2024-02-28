@@ -27,6 +27,8 @@ h1{
 }
 main h1{
     color: #000;
+    margin: 0 auto;
+    
 }
 
 nav a{
