@@ -6,7 +6,9 @@
     <title>WDD 230 Form</title>
     <meta name="author" content="Jack Loo">
     <meta name="description" content="Web Page of Form for WDD230 of Jack Loo">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
     <header>
@@ -28,22 +30,23 @@
 
     <main>
         <h1>Course Proposal Application</h1>
+        <div id="display"></div>
         <form method="get" action="record.html">
             <fieldset>
                 <legend>Application Information</legend>
-                <label class="top">Username* <input type="text" name="id" required></label>
+                <label class="top">Username* <input type="text" id="id" name="id" required></label>
                 <label class="top" for="keyphrase">Password*</label>
-                <input type="text" id="keyphrase" name="keyphrase" pattern="[a-zA-Z -]{8}" placeholder="At least 8 characters long. No numbers.">
+                <input type="password" id="keyphrase" name="keyphrase" pattern="[a-zA-Z -]{8}" placeholder="At least 8 characters long. No numbers." required>
                 <label class="top" for="keyphrase2">Re-enter Your Key Password</label>
-                <input type="text" id="keyphrase2" name="keyphrase2">
+                <input type="password" id="keyphrase2" name="keyphrase2" required>
 
-                <label class="top">Email* <input type="text" name="email" placeholder="someone@email.com" pattern="[a-zA-Z0-9.%+-]+@byui\.edu$" required></label>
-                <label class="top"> Phone <input type="tel" name="Phone" placeholder="1234567890"></label>
+                <label class="top">Email* <input type="email" id="email" name="email" placeholder="someone@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
+                <!-- <label class="top"> Phone <input type="tel" name="Phone" placeholder="1234567890"></label> -->
                 <label for="r">Page Rating</label>
-                <div id="rangevalue">0</div>
-                <input class="top" type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                <div id="rangevalue">1</div>
+                <input class="top" type="range" id="r" name="r" min="1" max="10" value="1" step="1" list="rangevalues">
                 <datalist id="rangevalues">
-                    <option value="0">0</option>
+                    <!-- <option value="0">0</option> -->
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -56,7 +59,7 @@
                     <option value="10">10</option>
                 </datalist>
             </fieldset>
-            <input type="submit" value="Send Rating" class="submitbutton">
+            <input type="submit" value="Send Rating" class="submitBtn">
     </main>
 
     <footer>
@@ -67,6 +70,7 @@
             </div>
             <div id="lastModified"></div>
     </footer>
+    <script src="scripts/getdates.js"></script>
     <script src="scripts/form.js"></script>
 </body>
 </html>
