@@ -36,15 +36,15 @@
                 <legend>Application Information</legend>
                 <label class="top">Username* <input type="text" id="id" name="id" required></label>
                 <label class="top" for="keyphrase">Password*</label>
-                <input type="password" id="keyphrase" name="keyphrase" pattern="[a-zA-Z -]{8}" placeholder="At least 8 characters long. No numbers." required>
+                <label><input type="password" id="keyphrase" name="keyphrase" pattern="[a-zA-Z -]{8}" placeholder="At least 8 characters long. No numbers." required></label>
                 <label class="top" for="keyphrase2">Re-enter Your Key Password</label>
-                <input type="password" id="keyphrase2" name="keyphrase2" required>
+                <label><input type="password" id="keyphrase2" name="keyphrase2" required></label>
 
                 <label class="top">Email* <input type="email" id="email" name="email" placeholder="someone@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
                 <!-- <label class="top"> Phone <input type="tel" name="Phone" placeholder="1234567890"></label> -->
                 <label for="r">Page Rating</label>
                 <div id="rangevalue">1</div>
-                <input class="top" type="range" id="r" name="r" min="1" max="10" value="1" step="1" list="rangevalues">
+                <label><input class="top" type="range" id="r" name="r" min="1" max="10" value="1" step="1" list="rangevalues"></label>
                 <datalist id="rangevalues">
                     <!-- <option value="0">0</option> -->
                     <option value="1">1</option>
