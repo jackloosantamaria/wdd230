@@ -80,6 +80,12 @@ figure{
     width: 100%;
 }
 
+/***********************Join++++++*****************/
+
+#main-join{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 
 }
