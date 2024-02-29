@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack Loo Panama City Chamber of Commerce</title>
+    <meta name="description" content="website of Panama City Chamber of Commerce">
+    <meta name="author" content="Jack Loo">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Panama City Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lp-cms-production.imgix.net/2022-12/iStock-1264005950.jpg?auto=format&w=1920&h=640&fit=crop&crop=faces,edges&q=75">
+    <meta property="og:url" content="https://https://jackloosantamaria.github.io/wdd230/chamber/index.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <img src="images/gobierno3.webp" alt="Profile picture of Panama Government">
+        <div id="profile_ti">
+            <h1>Panama City Chamber of Commerce</h1>
+        </div>
+
+        <div id="logo">
+            <a href="#" target="_blank">
+                <img src="images/linkedin.webp" alt="linkedin logo">
+            </a>
+            <a href="#" target="_blank">
+                <img src="images/facebook.webp" alt="facebook logo">
+            </a>
+        </div>
+        <div id="mode">Dark Mode</div>
+    </header>
+    
+    <!-- <button id="menu">☰</button> -->
+    <button id="menu"></button>
+    <nav>
+        <ul class="choices">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    
+    <main id="main-join">
+        <aside id="aside-join">
+            <div class="aside">
+                <h2>Non-Profit Membership</h2>
+                <ul>
+                    <li>Limited access to select events of the Chamber of Commerce</li>
+                    <li>Quarterly newsletter with basic news and updates on trade in Panama.</li>
+                    <li>Basic educational resources on business and legal topics.</li>
+                    <li>Participation in an initial contact network with other free members</li>
+                </ul>
+                <h2>Free of Charge</h2>
+            </div>
+
+            <div class="aside">
+                <h2>Bronze Membership</h2>
+                <ul>
+                    <li>Access to exclusive member events.</li>
+                    <li>Monthly newsletter with updates on the market and business opportunities in Panama.</li>
+                    <li>Discounts on consultancy and advisory services for businesses.</li>
+                </ul>
+                <h2>$50 / Month</h2>
+            </div>
+
+            <div class="aside">
+                <h2>Silver Membership</h2>
+                <ul>
+                    <li>Gain priority access to high-demand events and workshops organized by the Chamber of Commerce.</li>
+                    <li>Enjoy dedicated customer support for all your inquiries and assistance needs.</li>
+                    <li>Access and exclusive networking platform to connect with influential industry leaders and potential business partners.</li>
+                    <li>Receive access to a comprehensive library of business resources, including guides, templates, and market research reports.</li>
+                </ul>
+                <h2>$100 / Month</h2>
+            </div>
+
+            <div class="aside">
+                <h2>Gold Membership</h2>
+                <ul>
+                    <li>Unlimited access to all Chamber of Commerce events and seminars.</li>
+                    <li>Personalized advice on specific legal and business topics.</li>
+                    <li>Preferential advertising on the Chamber of Commerce website and in its newsletters.</li>
+                    <li>Access to exclusive market reports and economic trend analysis in Panama.</li>
+                </ul>
+                <h2>$150 / Month</h2>
+            </div>
+        </aside>
+
+        <!-----------Reasons to Join----------------->
+
+
+
+        <div id="join-list">
+            <h2>Why should you join us?</h2>
+            <ul>
+                <li>
+                    <h3>Networking and Business Connections</h3>
+                    <p>The Chamber of Commerce of Panama provides an invaluable platform for establishing contacts and business
+                        relationships with other enterpreneurs, industry leaders, and potential business partners. These Connections
+                        can open doors to new business opportunities, strategic collaborations, and potential clients.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Resources and Training</h3>
+                    <p>
+                        As a member of the Chamber of Commerce, you gain access to a variety of business resources, including seminars, workshops,
+                        and educational materials. These resources can help enterpreneurs stay updated on the latest market trends,
+                        acquire key business skills, and tackle business challenge more effectively.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Advocay for Common Interests</h3>
+                    <p>
+                        The Chamber of Commerce of Panama acts as an advocate for the business interests of its members, lobbying for policies and
+                        regulations that benefit the business sector. By joining the Chamber, enterpreneurs can have a stronger collective voice on 
+                        important issues affecting Panama's business and economic environment.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Visibility and Credibility</h3>
+                    <p>
+                        Being a member of the Chamber of Commerce of Panama can enhance a company's visibility and credibility. Members are often perceived
+                        as reliable businesses committed to the hightest commercial and ethical standards. Additionally, the Chamber can provide promotion and 
+                        advertising opportunities that help increase the company's visibility in the local and international market.
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-----------Form----------------->
+
+
+
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Business Information</legend>
+                <label>First Name* <input type="text" name="fname" id="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" id="lname" required></label>
+                <label>Title or Position* <input type="text" name="position" id="position" pattern="[a-zA-Z\- ]{7}" required></label>
+                <label>Email Address* <input type="email" name="email" id="email" placeholder="someone@email.com" required></label>
+                <label>Phone Number* <input type="telephone" name="telephone" id="telephone" required></label>
+                <label>Business/Organization's Name* <input type="text" name="organization" id="organization" required></label>
+            </fieldset> 
+
+            <fieldset>
+                <legend>Membership</legend>
+                <label class="sbs"><input type="radio" name="membership" id="membership" value="nonprofit">Non-profit</label>
+                <label class="sbs"><input type="radio" name="membership" id="membership" value="bronze">Bronze</label>
+                <label class="sbs"><input type="radio" name="membership" id="membership" value="silver">Silver</label>
+                <label class="sbs"><input type="radio" name="membership" id="membership" value="gold">Gold</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business Description</legend>
+                <label class="sbs"><input type="text" name="bdescription" id="bdescription"></label>
+                <label><input type="hidden" name="dhidden" id="dhidden"></label>                
+            </fieldset>
+            <input type="submit" value="Join" class="submitBtn">
+        </form>
+    </main>
+
+    <footer>
+        <section id="footerc">
+            <img src="images/gobierno3.webp" alt="logo gobierno">
+            <div>
+                <h2>Panama City</h2>
+                <h3>Chamber of Commerce</h3>
+                <p>Y Cuba Ave</p>
+                <p>Panama City, Panama</p>
+            </div>
+        </section>
+        <hr>
+        <div id="info_footer">
+            <p>&copy; <span id="date"></span> Jack Loo</p>
+            <p>WDD 230 Project</p>
+            <div id="lastModified"></div>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
