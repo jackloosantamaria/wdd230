@@ -211,8 +211,8 @@ body{
     margin: auto;
 }
 .hero img{
-    /* width: 100%;
-    height: auto; */
+    width: 100%;
+    height: auto;
     margin-top: -4rem;
     object-fit: cover;
 }
