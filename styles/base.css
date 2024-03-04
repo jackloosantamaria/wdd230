@@ -104,6 +104,19 @@ h2{
     margin-top: 50px;
 }
 
+.card ul{
+    counter-reset: list-counter;
+}
+
+.card ul li{
+    counter-increment: list-counter;
+}
+
+.card ul li:before{
+    content: counter(list-counter, decimal-leading-zero) ": ";
+    margin-right: 5px;
+}
+
 .card2{
     text-align: center;
 }
