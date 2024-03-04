@@ -1,0 +1,136 @@
+{
+    "lessons":[{
+        "lesson": "01",
+        "links": [
+            {
+            "url": "lesson01/holygrail.html",
+            "title": "Holy Grail"
+            },
+            {
+                "url": "https://codepen.io/Jack-Loo/pen/OJqXXBL",
+                "title": "JS Pen"
+            }
+        ]
+    },
+
+    {
+        "lesson": "02",
+        "links": [
+            {
+                "url": "lesson01/media-query.html",
+                "title": "Media Query"
+            },
+            {
+                "url": "lesson02/design-principles.html",
+                "title": "Design Principle Document"
+            }
+        ]
+    },
+
+    {
+        "lesson": "03",
+        "links": [
+            {
+                "url":"lesson03/images/quiz1image.png",
+                "title": "CSS Combinator"
+            },
+            {
+                "url": "https://codepen.io/Jack-Loo/pen/BabZrPp",
+                "title": "CP Pseudo Element"
+            },
+            {
+                "url": "https://codepen.io/Jack-Loo/pen/JjzJvrG",
+                "title": "CP Menu"
+            },
+            {
+                "url": "lesson03/chamber-site-plan.html",
+                "title": "Chamber Site Plan"
+            }
+        ]
+    },
+
+    {
+        "lesson": "04",
+        "links":[
+            {
+                "url": "https://codepen.io/Jack-Loo/pen/vYPpjwE",
+                "title": "Code Pen Pseudo Classes"
+            },
+            {
+                "url": "chamber/index.html",
+                "title": "Chamber Home Page"
+            }
+        ]
+    },
+
+    {
+        "lesson": "05",
+        "links":[
+            {
+                "url": "lesson05/bom.html",
+                "title": "BOM"
+            },
+            {
+                "url": "chamber/index.html",
+                "title": "Dark Mode Chamber of Commerce"
+            }
+        ]
+    },
+
+    {
+        "lesson": "06",
+        "links": [
+            {
+                "url": "lesson03/images/landscape.webp",
+                "title": "WebP"
+            },
+            {
+                "url": "lesson06/responsive-images.html",
+                "title": "Responsive Image"
+            }
+        ]
+    }, 
+
+    {
+        "lesson": "07",
+        "links": [
+            {
+                "url": "lesson07/lazyload.html",
+                "title": "Lazy Loading"
+            },
+            {
+                "url": "lesson07/bom.html",
+                "title": "BOM LocalStorage"
+            }
+        ]
+    },
+
+    {
+        "lesson": "08",
+        "links": [
+            {
+                "url": "lesson08/tablebuild.html",
+                "title": "Tables" 
+            },
+            {
+                "url": "lesson08/index.html",
+                "title": "Forms"
+            }
+        ]
+    },
+
+    {
+        "lesson": "09",
+        "links": [
+            {
+                "url": "lesson09/new_ward_members.json",
+                "title": "JSON"
+            },
+            {
+                "url": "lesson09/prophets.html",
+                "title": "Prophets API"
+            }
+        ]
+    }
+    ]
+}
