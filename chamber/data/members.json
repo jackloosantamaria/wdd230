@@ -14,6 +14,7 @@
             "name": "Duty Free Americas",
             "description": "Retail Company",
             "address": "Santa Maria Business District, Panama City",
+            "phone":"(507)999-9999",
             "url": "https://pty.dutyfreeamericas.com/",
             "logo": "https://raw.githubusercontent.com/jackloosantamaria/wdd230/main/chamber/images/dutyfreeamericas.webp",
             "membership": "Silver"
@@ -23,6 +24,7 @@
             "name": "a360Inc",
             "description": "Lender & Legal Solutions",
             "address": "Tower Bank Elvira Mendez St, Panama City",
+            "phone":"(507)999-9999",
             "url": "https://www.a360inc.com/",
             "logo": "https://raw.githubusercontent.com/jackloosantamaria/wdd230/main/chamber/images/a360.webp",
             "membership": "Gold"
@@ -32,6 +34,7 @@
             "name": "Sitel",
             "description": "Outsourcing Provider",
             "address": "Fernandez de Cordoba Way, Panama City",
+            "phone":"(507)123-4567",
             "url": "https://foundever.com/",
             "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL2CWhUu6YAhV8TlSNDVkO8w9euQr2lqzI9mx9d3TejA&s",
             "membership": "Bronze"
@@ -41,6 +44,7 @@
             "name": "Alorica",
             "description": "Outsourcing Provider",
             "address": "Alorica Site, Jose Agustin Arango Avenue, Panama City",
+            "phone": "(507)789-1234",
             "url": "https://www.alorica.com/",
             "logo": "https://logowik.com/content/uploads/images/alorica3828.logowik.com.webp",
             "membership": "Bronze"
@@ -50,6 +54,7 @@
             "name": "Panama Canal Museum",
             "description": "Museum",
             "address": "Cathedral Square, between 5th and 6th Street, Casco Antiguo, Panama City",
+            "phone": "(507)432-6971",
             "url": "https://museodelcanal.com/",
             "logo": "https://museodelcanal.com/wp-content/uploads/2021/04/MUCI-Logo-Green.png",
             "membership": "Non-profit"
@@ -59,6 +64,7 @@
             "name": "General Bank",
             "description": "Financial Institution",
             "address": "Aquilino de la Guardia Street, Panama City",
+            "phone":"(507)123-0938",
             "url": "https://www.bgeneral.com/",
             "logo": "https://bancogeneral.hiringroom.com/data/accounts/bancogeneral/microsite/56914303db856b46ffebd0257b78e3b4.png",
             "membership": "Silver"
