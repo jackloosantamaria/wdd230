@@ -433,9 +433,9 @@ input{
     max-width: 100%;
 }
 
-.list-directory p{
+/* .list-directory p{
     display: none;
-}
+} */
 
 .list-directory section{
     display: grid;
