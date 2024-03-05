@@ -94,4 +94,8 @@ figure{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+article h2{
+    grid-column: 1/4;
+    
+}
 }
