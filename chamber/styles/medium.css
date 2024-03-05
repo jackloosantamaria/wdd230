@@ -84,5 +84,12 @@
     box-shadow: 0 0 50px #333;
 }
 
+/***********Directory*******************/
+
+.grid-directory{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 
 }
