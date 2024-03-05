@@ -14,6 +14,7 @@ const displayCompanies = (companies) =>{
         let logo = document.createElement("img");
         let cDescription = document.createElement("p");
         let address = document.createElement("p");
+        let cPhone = document.createElement("p");
         let website = document.createElement("a");
         let membership = document.createElement("h3");
 
@@ -26,6 +27,7 @@ const displayCompanies = (companies) =>{
         cName.textContent = `${company.name}`;
         cDescription.textContent = `${company.description}`;
         address.textContent = `${company.address}`;
+        cPhone.textContent = `Phone: ${company.phone}`;
         membership.textContent = `${company.membership} Membership`;
         website.setAttribute("href", `${company.url}`);
         website.textContent = company.url;
@@ -35,6 +37,7 @@ const displayCompanies = (companies) =>{
         card.appendChild(cName);
         card.appendChild(cDescription);
         card.appendChild(address);
+        card.appendChild(cPhone);
         card.appendChild(membership);
         card.appendChild(website);
 
