@@ -92,10 +92,20 @@ figure{
 .grid-directory{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
 
-article h2{
+#article-h2{
+    display: inline;
     grid-column: 1/4;
-  
 }
+
+
+/* .list-directory section{
+    display: grid;
+    gap: 10px;
+    padding: 0.25rem;
+    width: 100%;
+} */
+
 }
