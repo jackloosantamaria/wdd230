@@ -87,5 +87,11 @@ figure{
     grid-template-columns: 1fr 1fr;
 }
 
+/********************Directory*********************/
+
+.grid-directory{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 }
