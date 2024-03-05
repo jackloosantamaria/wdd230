@@ -1,11 +1,25 @@
-let newYear = new Date(document.lastModified);
-document.querySelector("#lastModified").textContent = newYear;
+//date
 
-const choice = {
-    year: "numeric"
-};
+// let newYear = new Date(document.lastModified);
+// document.querySelector("#lastModified").textContent = newYear;
 
-document.querySelector("#date").innerHTML = new Date().toLocaleDateString("en-US", choice);
+// const choice = {
+//     year: "numeric"
+// };
+
+// document.querySelector("#date").innerHTML = new Date().toLocaleDateString("en-US", choice);
+
+//New Format Date
+
+const newYear = document.querySelector("#date");
+const lastModification = document.querySelector("#lastModified");
+
+let currentYear = new Date().getFullYear();
+let lastModified = document.lastModified;
+
+newYear.innerHTML = `${currentYear}`;
+lastModification.innerHTML = `${lastModified}`;
+
 
 //Hamburger Button
 
