@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack Loo Panama City Chamber of Commerce Directory Web Page</title>
+    <meta name="description" content="website of Panama City Chamber of Commerce Directory Page">
+    <meta name="author" content="Jack Loo">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Panama City Chamber of Commerce Directory Web Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lp-cms-production.imgix.net/2022-12/iStock-1264005950.jpg?auto=format&w=1920&h=640&fit=crop&crop=faces,edges&q=75">
+    <meta property="og:url" content="https://https://jackloosantamaria.github.io/wdd230/chamber/index.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <img src="images/gobierno3.webp" alt="Profile picture of Panama Government">
+        <div id="profile_ti">
+            <h1>Panama City Chamber of Commerce</h1>
+        </div>
+
+        <div id="logo">
+            <a href="#" target="_blank">
+                <img src="images/linkedin.webp" alt="linkedin logo">
+            </a>
+            <a href="#" target="_blank">
+                <img src="images/facebook.webp" alt="facebook logo">
+            </a>
+        </div>
+        <div id="mode">Dark Mode</div>
+    </header>
+    
+    <!-- <button id="menu">☰</button> -->
+    <button id="menu"></button>
+    <nav>
+        <ul class="choices">
+            <li><a href="#">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="menu">
+            <button id="grid">Grid</button>
+            <button id="list">List</button>
+        </div>
+        <article id="cards" class="grid-directory"></article>
+    </main>
+
+    <footer>
+        <section id="footerc">
+            <img src="images/gobierno3.webp" alt="logo gobierno">
+            <div>
+                <h2>Panama City</h2>
+                <h3>Chamber of Commerce</h3>
+                <p>Y Cuba Ave</p>
+                <p>Panama City, Panama</p>
+            </div>
+        </section>
+        <hr>
+        <div id="info_footer">
+            <p>&copy; <span id="date"></span> Jack Loo</p>
+            <p>WDD 230 Project</p>
+            <div id="lastModified"></div>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
