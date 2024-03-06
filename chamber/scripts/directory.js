@@ -21,8 +21,8 @@ const displayCompanies = (companies) =>{
         logo.setAttribute("src", company.logo);
         logo.setAttribute("alt", `Logo of ${company.name}`);
         //logo.setAttribute("loading", "lazy");
-        logo.setAttribute("width", "622.22");
-        logo.setAttribute("height", "350");
+        logo.setAttribute("width", "350");
+        logo.setAttribute("height", "196.88");
 
         cName.textContent = `${company.name}`;
         cDescription.textContent = `${company.description}`;
