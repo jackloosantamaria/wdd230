@@ -30,9 +30,9 @@ h2{
 
 #mode{
     position: relative;
-    right: 5rem;
+    right: 7rem;
     font-size: .75rem;
-    margin-top: -50px;
+    margin-top: 0px;
 }
 
 /******************NAV*****************/
@@ -106,8 +106,8 @@ h2{
     background-color: #eee;
     color: #000;
     position: absolute;
-    top: 3.5rem;
-    right: .9rem;
+    top: 2.5rem;
+    right: .2rem;
     border-radius: 10px;
 }
 #menu::before{
