@@ -439,12 +439,12 @@ input{
     display: none;
 } */
 
-.list-directory section{
+/* .list-directory section{
     display: grid;
     gap: 10px;
     padding: 0.25rem;
     width: 100%;
-}
+} */
 
 .list-directory section >*{
     margin: 0 1rem;
