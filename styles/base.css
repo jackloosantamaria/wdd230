@@ -106,6 +106,7 @@ h2{
 
 .card ul{
     counter-reset: list-counter;
+    list-style-type: none;
 }
 
 .card ul li{
