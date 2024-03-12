@@ -1,19 +1,15 @@
 // export function rundwill(){
+//     var tempera = parseFloat(document.querySelector('#temp').innerHTML);
+//     var win = parseFloat(document.querySelector('#windspeed').innerHTML);
 
-// document.querySelector('#temp').innerHTML = "9";
-// const tempera = document.getElementById('temp');
-// const temperature = parseFloat(tempera);
-// document.querySelector('#windspeed').innerHTML = "6";
-// const win = document.getElementById('temp');
-// const winds = parseFloat(win);
+// // document.querySelector('#temp').innerHTML = "9";
 
-// var temperature = 8.0;
-// var winds = 8.0;
+// //document.querySelector('#windspeed').innerHTML = "6";
 
 // //If temperature in C is below or equal to 10 and wind speed in kmh is above 4.8 do this
-// if (temperature <= 10 && winds > 4.8){
-//     const tempfah = CtoF(temperature);
-//     const windsmph = KtoM(winds);
+// if (tempera <= 10 && win > 4.8){
+//     const tempfah = CtoF(tempera);
+//     const windsmph = KtoM(win);
 //     const windchi = calculatewind(tempfah,windsmph);
 
 //     document.querySelector('#windchill').innerHTML = `${FtoC(windchi)} °C`;
@@ -22,9 +18,6 @@
 //     document.querySelector('#windchill').innerHTML = "N/A";
 // }
 // }
-
-
-
 
 
 
@@ -52,6 +45,10 @@
 //     return (tempF - 32) * 5 / 9;
 // }
 
+// export function MtoK(speedMph){
+//     return speedMph * 1.60934;
+// }
+
 
 
 //working js
@@ -64,11 +61,11 @@
 // document.getElementById("windchill").innerHTML= windChill;
 
 
-
+//working function
 
 var temp= parseFloat(document.getElementById('temp').innerHTML);
 var wSpeed= parseFloat(document.getElementById('windspeed').innerHTML);
-if (temp <=50 && wSpeed >3){
+if (temp <=10 && wSpeed >4.8){
 var windChill= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275*temp*Math.pow(wSpeed,0.16));
 
 var windChill= Math.round(windChill);
