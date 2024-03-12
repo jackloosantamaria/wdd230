@@ -85,14 +85,45 @@
                 <h2>Weather Information</h2>
                 <h3>Panama City, Panama</h3>
                 <p>Today</p>
-                <p>Temperature: </p>
-                <p id="temp">48</p>
+                <figure>
+                    <p>Temperature<img id="weather-icon" src="" alt=""><span id="temp"></span>&deg;C</p>
+                    <figcaption></figcaption>
+                </figure>
                 <p>Page Visits: 15</p>
                 <div class="weather2">
-                    <p>windspeed: </p>
-                    <p id="windspeed">15</p> 
+                    <p>windspeed: <span id="windspeed"></span> km/h</p>
                     <p>Wind Chill: <span id="windchill"></span> °</p>
                 </div>
+                <h4>Forecast</h4>
+
+                <section class="weathercp" id="weatherForecast">
+                    <div>
+                        <h4><span id="forecast1"></span></h4>
+                        <h4><span id="forecastTemp1"></span></h4>
+                        <figure>
+                            <img id="weatherIcon1" class="wIcon" alt="weather icon">
+                            <figcaption id="fig2" class="weatherFigCaption"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div>
+                        <h4><span id="forecast2"></span></h4>
+                        <h4><span id="forecastTemp2"></span></h4>
+                        <figure>
+                            <img id="weatherIcon2" class="wIcon" alt="weather icon">
+                            <figcaption id="fig3" class="weatherFigCaption"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div>
+                        <h4><span id="forecast3"></span></h4>
+                        <h4><span id="forecastTemp3"></span></h4>
+                        <figure>
+                            <img id="weatherIcon3" class="wIcon" alt="weather icon">
+                            <figcaption id="fig4" class="weatherFigCaption"></figcaption>
+                        </figure>
+                    </div>
+                </section>
 
                 
             </section>
@@ -151,5 +182,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/weatherc.js"></script>
 </body>
 </html>
