@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 header{
@@ -171,6 +172,8 @@ body{
     margin: 20px 0px;
     padding: 0px 20px;
     overflow: hidden;
+    text-align: center;
+    padding: 10px;
 }
 
 
@@ -462,4 +465,40 @@ input{
 .list-directory section:nth-child(even){
     background-color: rgb(197, 197, 197);
     
+}
+
+/********Weather***************/
+
+.w-icon{
+    height: 35px;
+    max-width: 100%;
+}
+
+.weathercp{
+    border: 1px solid #004e98;
+}
+
+/**************Banner*******************/
+
+.anBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #984700;
+    color: white;
+}
+
+.closeButton{
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
 }
