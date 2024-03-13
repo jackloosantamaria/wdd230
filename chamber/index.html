@@ -46,6 +46,12 @@
     </nav>
     
     <main>
+        <div id="banner" class="anBanner">
+            <div>
+                <strong>Announcement:</strong> Join us on Wednesday at 7:00 p.m. on Amador Convention Center.
+            </div>
+            <button class="closeButton" onclick="closeBanner()">Close</button>
+        </div>
         <div id="hero-box">
             <div id="hero-i">
                 <!-- <img id="hero-image" src="images/why-do-foreign_1_75.webp" alt="hero image"> -->
@@ -84,18 +90,19 @@
             <section class="box">
                 <h2>Weather Information</h2>
                 <h3>Panama City, Panama</h3>
-                <p>Today</p>
-                <figure>
-                    <p>Temperature<img id="weather-icon" src="" alt=""><span id="temp"></span>&deg;C</p>
-                    <figcaption></figcaption>
-                </figure>
-                <p>Page Visits: 15</p>
-                <div class="weather2">
-                    <p>windspeed: <span id="windspeed"></span> km/h</p>
-                    <p>Wind Chill: <span id="windchill"></span> °</p>
+                <div class="weathercp">
+                    <p>Today</p>
+                    <figure>
+                        <p>Temperature<img id="weather-icon" src="" alt=""><span id="temp"></span>&deg;C</p>
+                        <figcaption></figcaption>
+                    </figure>
+                    <p>Page Visits: 15</p>
+                    <div class="weather2">
+                        <p>windspeed: <span id="windspeed"></span> km/h</p>
+                        <p>Wind Chill: <span id="windchill"></span> °</p>
+                    </div>
                 </div>
                 <h4>Forecast</h4>
-
                 <section class="weathercp" id="weatherForecast">
                     <div>
                         <h4><span id="forecast1"></span></h4>
@@ -183,5 +190,6 @@
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/windchill.js"></script>
     <script src="scripts/weatherc.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>
