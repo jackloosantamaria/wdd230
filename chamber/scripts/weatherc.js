@@ -144,6 +144,8 @@ function forecastDates(){
     const todayIn = currentDate.getDay();
 
     forecast1.innerHTML = `${daysOfWeek[(todayIn + 1) % 7]}`;
+    forecast2.innerHTML = `${daysOfWeek[(todayIn + 2) % 7]}`;
+    forecast3.innerHTML = `${daysOfWeek[(todayIn + 3) % 7]}`;
 }
 
 
