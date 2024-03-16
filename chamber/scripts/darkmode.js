@@ -1,17 +1,40 @@
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("#main-grid-box");
 const body = document.querySelector("body");
+const mainDiscover = document.querySelector("#discovery-main");
 
 modeButton.addEventListener("click", () => {
     if (modeButton.textContent.includes("Dark Mode")){
         main.style.background = "#000";
         body.style.background = "#000";
+        //mainDiscover.style.background = "#000";
     
 
         modeButton.textContent = "Light Mode";
     }else{
         main.style.background = "#fff";
         body.style.background = "#fff";
+        // mainDiscover.style.background = "#fff";
+
+
+        modeButton.textContent = "Dark Mode"
+    }
+
+
+});
+
+modeButton.addEventListener("click", () => {
+    if (modeButton.textContent.includes("Dark Mode")){
+        body.style.background = "#000";
+        mainDiscover.style.background = "#000";
+    
+
+        modeButton.textContent = "Light Mode";
+    }else{
+        body.style.background = "#fff";
+        mainDiscover.style.background = "#fff";
+
+
         modeButton.textContent = "Dark Mode"
     }
 
