@@ -1,16 +1,12 @@
-function bannerDay(){
-    const day = new Date().getDay();
-    return [1,2,3].includes.apply(day);
-}
+document.addEventListener("DOMContentLoaded", function(){
+    const today = new Date().getDay();
+    if (today === 1 || today === 2 || today === 3){
+        document.getElementById("banner").style.display = "block";
+    }
+
+});
 
 function closeBanner(){
-    const banner = document.getElementById("banner");
-    banner.style.display = "none";
+    document.getElementById("banner").style.display = "none";
+    
 }
-
-document.addEventListener("DOMContentLoaded", function(){
-    if (bannerDay()){
-        const banner = document.getElementById("banner");
-        banner.style.display = "flex";
-    }
-});
