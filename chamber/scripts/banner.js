@@ -3,6 +3,9 @@ document.addEventListener("DOMContentLoaded", function(){
     if (today === 1 || today === 2 || today === 3){
         document.getElementById("banner").style.display = "block";
     }
+    else{
+        document.getElementById("banner").style.display = "none"; 
+    }
 
 });
 
