@@ -14,20 +14,20 @@
     .box{
         display: flex;
         flex-direction: column;
-        width: 50%;
-        margin-left: 200px;
+        /* width: 50%; */
+        /* margin-left: 200px; */
     }
-  
+
   
 
     #gridClass{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 3fr 1fr;
         grid-gap: 20px;
     }
 
    #rProducts{
-    margin-left: -650px;
+    margin-left: -350px;
    }
 
 
