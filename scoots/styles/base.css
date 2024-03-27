@@ -201,6 +201,22 @@ body{
     flex-direction: column;
 }
 
+/**************Weather*********************/
+
+.box{
+    background: #bfecff;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #bfecff;
+    margin: 20px 0px;
+    padding: 0px 20px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+
+.weathercp{
+    border: 1px solid #004e98;
+}
 
 /****************footer*************/
 #lastModified{
@@ -212,7 +228,7 @@ body{
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 #footerc img{
