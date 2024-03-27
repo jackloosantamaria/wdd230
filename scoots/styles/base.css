@@ -218,6 +218,14 @@ body{
     border: 1px solid #004e98;
 }
 
+.box h2, .box h3, .box h4{
+    margin-top: 30px;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
 /****************footer*************/
 #lastModified{
     color: yellow;
