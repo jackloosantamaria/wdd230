@@ -28,10 +28,6 @@
         display: none;
     }
 
-    #main-grid-box{
-        grid-template-columns: 4fr 2fr;
-        grid-column-gap: 1rem;
-    }
 
     #footerc{
         grid-template-columns: 2fr 2fr 2fr 1fr;
@@ -41,80 +37,17 @@
         grid-column: span 1;
     }
 
-
-
-    #companies{
-        grid-column: span 2;
-        width: 100%;
-        display: grid;
-        gap: 1rem;
-        padding: 0px 20px;
-        grid-template-columns: repeat(2, minmax(300px, 1fr));
-    }
-
-    .smalllabel{
-        display: none;
-    }
-
-    .largelabel{
-        display: none;
-    }
-
-    .mediumlabel{
+    .box{
         display: flex;
-        position: absolute;
-        margin-top: -3rem;
-        font-size: 2rem;
-        color: white;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     }
 
-    /*********************************************/
-
-/*Discover Page*/
-
-.discover-images{
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    padding: 10px;
-}
-
-.gallery img:hover{
-    box-shadow: 0 0 50px #333;
-}
-
-/***********Directory*******************/
-
-.grid-directory{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.list-directory section{
-    display: grid;
-    grid-column: 1/2;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 10px;
-    padding: 0.25rem;
-    width: auto;
-    margin-left: 2rem;
-}
-
-.list section{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-    padding: 0.25rem;
-    width: auto;
-}
-
-/***************Weather*************************/
-
-#weatherForecast{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
+    .box > div{
+        flex: 1;
+  
+    }
 
 
 }
