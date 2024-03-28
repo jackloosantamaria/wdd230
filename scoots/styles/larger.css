@@ -32,10 +32,29 @@
     margin-left: -350px;
    }
 
+   /*******************Join***********************/
 
+   #main-reservation{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   }
 
+   form{
+    grid-column: 1/2;
+   }
 
+   #main-reservation h1{
+    margin: 0 auto;
+    grid-column: 1/3;
+    padding: 10px;
+   }
 
+   #join-list ul li p{
+    padding: 20px;
+   }
 
+   #join-list{
+    margin-top: 30px;
+   }
 
 }
