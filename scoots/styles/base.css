@@ -263,3 +263,60 @@ footer{
     color: white;
 }
 
+/***************Reservation*******************/
+
+form{
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submitBtn{
+    background-color: #984700;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submitBtn:hover{
+    background-color: #2980b9;
+}
+
+#join-list{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#join-list ul li p{
+    padding: 10px;
+}
+
+#main-thankyou h1{
+    text-align: center;
+}
+
+#main-thankyou p{
+    width: 100%;
+    padding: 10px;
+}
