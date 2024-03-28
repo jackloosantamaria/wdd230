@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack Loo Panama Cozumel Scoots Company</title>
+    <meta name="description" content="website of Cozumel Scoots Company">
+    <meta name="author" content="Jack Loo">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Cozumel Scoots Company">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://beachbumcozumel.mx/wp-content/uploads/2019/09/DSC_0077-352x198.jpg">
+    <meta property="og:url" content="https://https://jackloosantamaria.github.io/wdd230/scoots/index.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.webp" alt="logo.webp">
+        <div id="profile_ti">
+            <h1>Cozumel Scoots Company</h1>
+        </div>
+
+        <div id="logo">
+            <a href="#" target="_blank">
+                <img src="images/instagram2.webp" alt="linkedin logo">
+            </a>
+            <a href="#" target="_blank">
+                <img src="images/facebook2.webp" alt="facebook logo">
+            </a>
+        </div>
+        <!-- <div id="mode" class="pointerMode">Dark Mode</div> -->
+    </header>
+    
+    <!-- <button id="menu">☰</button> -->
+    <button id="menu"></button>
+    <nav>
+        <ul class="choices">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Rentals</a></li>
+            <li><a href="#">Reservations</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h1>Reservations</h1>
+        <form action="thankyou.html" method="get">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="period">Period:</label>
+            <select name="period" id="period">
+                <option value="half_day">Half Day</option>
+                <option value="full_day">Full Day</option>
+            </select><br><br>
+
+            <label for="rental_type">Rental Type:</label>
+            <select name="rental_type" id="rental_type">
+                <option value="honda_scooter">Honda Scooter</option>
+                <option value="atv">ATV</option>
+                <option value="jeep">Jeep</option>
+            </select><br><br>
+
+            <label for="number_of_people">Number of People:</label>
+            <input type="number" id="number_of_people" name="number_of_people" min="1" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="location">Location (State/Country):</label>
+            <input type="text" id="location" name="location" required><br><br>
+
+            <label for="cruise_line">Cruise Line:</label>
+            <input type="text" id="cruise_line" name="cruise_line"><br><br>
+
+            <label for="accomodations">Special Accomodations/Comments:</label>
+            <textarea name="accomodations" id="accomodations" cols="50" rows="4"></textarea><br><br>
+
+            <input type="submit" value="Submit Reservation">
+        </form>
+
+
+        <div>
+            <h2>Rental Services and Agreements</h2>
+            <ul>
+                <li>
+                    <p>A $50 security deposit is required to confirm reservations.</p>
+                </li>
+
+                <li>
+                    <p>A valid drivers license is required in hand at the time of rental.</p>
+                </li>
+
+                <li>
+                    <p>No one unders the age of 12 years of age are allowed to ride on the scooters.</p>
+                </li>
+
+                <li>
+                    <p>Fuel charge is not included.</p>
+                </li>
+
+                <li>
+                    <p>Unlimited mileage</p>
+                </li>
+
+                <li>
+                    <p>Liability insurance is included.</p>
+                </li>
+
+                <li>
+                    <p>Damage insurance is available for purchase.</p>
+                </li>
+
+                <li>
+                    <p>Free delivery to cozumel hotels or Airbnbs for 2+ day rentals.</p>
+                </li>
+
+                <li>
+                    <p>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</p>
+                </li>
+
+                <li>
+                    <p>Rentals may be returned to either physical location.</p>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <section id="footerc">
+            <img src="images/logo.webp" alt="logo.webp">
+            <div>
+                <h2>Cozumel</h2>
+                <h3>Scoots Company</h3>
+                <p>Phone: (800)-123-4567</p>
+                <p>280 5th Avenue</p>
+                <p>Cozumel, Quintana Roo</p>
+                
+            </div>
+           
+        </section>
+        <div>
+            <p>Email: reservations@cozumelscootscompany.com</p>
+        </div>
+        <hr>
+        <div id="info_footer">
+            <p>&copy; <span id="date"></span> Jack Loo</p>
+            <p>WDD 230 Project</p>
+            <!-- <div id="lastModified"></div> -->
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+
+</body>
+</html>
