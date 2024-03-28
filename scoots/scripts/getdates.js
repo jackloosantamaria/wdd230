@@ -147,3 +147,9 @@ function forecastDates(){
 apiFetch();
 forecastDates();
 forecastApiFetch();
+
+//reservation button
+
+document.getElementById("reservationButton").addEventListener("click", function() {
+    window.location.href = "reservations.html"
+});
