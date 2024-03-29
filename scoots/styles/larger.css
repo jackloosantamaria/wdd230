@@ -61,4 +61,12 @@
     margin: auto;
    }
 
+   /*****************Contact**********************/
+
+   #main-contact{
+    display: grid;
+   }
+
+
+
 }
