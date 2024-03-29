@@ -312,6 +312,10 @@ input{
     padding: 10px;
 }
 
+#join-list ul li{
+    list-style-type: none;
+}
+
 #main-thankyou h1{
     text-align: center;
 }
@@ -323,20 +327,34 @@ input{
 
 /*************Contact*******************/
 
-.maps{
+#maps{
     padding-bottom: 50%;
     position: relative;
-    width: 360px;
-    bottom: 10px;
+    width: 100%;
     margin: auto;
+    margin-top: 60px;
+    
 }
 
-.maps iframe{
+#h1-reservation{
+    text-align: center;
+}
+
+#maps iframe{
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
     position: absolute;
     padding: 10px;
-    
+}
+
+.box ul li{
+    padding: 10px;
+    list-style-type: none;
+}
+
+#h1-contact{
+    justify-content: center;
+    text-align: center;
 }
