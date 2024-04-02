@@ -1,0 +1,41 @@
+{
+    "Max Rental Pricing": {
+        "Reservation": {
+            "Half Day (3 hrs)": {
+                "Honda Metro Scooter": "$20",
+                "Honda Dio Scooter": "$30",
+                "Honda PCX150 Scooter": "$40",
+                "Honda Pioneer ATV": "$50",
+                "Jeep Wrangler - 4 door with a/c": "$70",
+                "Jeep Wrangler - 2 door": "$60"
+            },
+            "Full Day": {
+                "Honda Metro Scooter": "$30",
+                "Honda Dio Scooter": "$40",
+                "Honda PCX150 Scooter": "$50",
+                "Honda Pioneer ATV": "$70",
+                "Jeep Wrangler - 4 door with a/c": "$100",
+                "Jeep Wrangler - 2 door": "$85"
+                }
+            },
+            "Walk-In": {
+                "Half Day (3 hrs)": {
+                    "Honda Metro Scooter": "$25",
+                    "Honda Dio Scooter": "$35",
+                    "Honda PCX150 Scooter": "$45",
+                    "Honda Pioneer ATV": "$60",
+                    "Jeep Wrangler - 4 door with a/c": "$85",
+                    "Jeep Wrangler - 2 door": "$70"
+                },
+            "Full Day": {
+                "Honda Metro Scooter": "$35",
+                "Honda Dio Scooter": "$45",
+                "Honda PCX150 Scooter": "$55",
+                "Honda Pioneer ATV": "$80",
+                "Jeep Wrangler - 4 door with a/c": "$125",
+                "Jeep Wrangler - 2 door": "$90"
+            }
+        }
+    }
+    
+}
