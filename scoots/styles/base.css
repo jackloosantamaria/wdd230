@@ -359,3 +359,15 @@ input{
     text-align: center;
 }
 
+/****************Rentals**************************/
+
+#rentalTable{
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+table#rentalTable th{
+    padding: 8px 4px;
+    font-size: 12px;
+}
