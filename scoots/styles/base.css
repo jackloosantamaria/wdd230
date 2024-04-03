@@ -362,7 +362,7 @@ input{
 /****************Rentals**************************/
 
 #rentalTable{
-    width: 100%;
+    max-width: 100%;
     border-collapse: collapse;
     overflow-x: auto;
 }
