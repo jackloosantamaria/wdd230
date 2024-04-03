@@ -7,6 +7,47 @@
                 "Half Day (3 hours)": "$25",
                 "Full-Day": "35"
             }
+        },
+        "Honda Dio Scooter": {
+            "2": {
+                "Half Day (3 hrs)": "$30",
+                "Full Day": "$40",
+                "Half Day (3 hours)": "$35",
+                "Full-Day": "$45"
+            }
+        },
+
+        "Honda PCX150 Scooter": {
+            "2": {
+                "Half Day (3 hrs)": "$40",
+                "Full Day": "$50",
+                "Half Day (3 hours)": "$45",
+                "Full-Day": "$55"
+            }
+        },
+        "Honda Pioneer ATV": {
+            "4": {
+                "Half Day (3 hrs)": "$50",
+                "Full Day": "$70",
+                "Half Day (3 hours)": "$60",
+                "Full-Day": "$80"
+            }
+        },
+        "Jeep Wrangler - 4 door with a/c": {
+            "5": {
+                "Half Day (3 hrs)": "$70",
+                "Full Day": "$100",
+                "Half Day (3 hours)": "$85",
+                "Full-Day": "$125"
+            }
+        },
+        "Jeep Wrangler - 2 door": {
+            "4": {
+                "Half Day (3 hrs)": "60",
+                "Full Day": "$85",
+                "Half Day (3 hours)": "$70",
+                "Full-Day": "$90"
+            }
         }
     
     }
