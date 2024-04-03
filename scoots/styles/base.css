@@ -369,5 +369,12 @@ input{
 
 table#rentalTable th{
     padding: 8px 4px;
-    font-size: 12px;
+    font-size: 11px;
+}
+
+.scoots img{
+    max-height: fit-content;
+    max-width: 200px;
+    border-radius: 20px;
+    overflow: hidden;
 }
