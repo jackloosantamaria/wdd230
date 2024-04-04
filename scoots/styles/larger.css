@@ -100,6 +100,17 @@
     grid-row: 1;
    }
 
+   /***************Rentals***********************/
+
+   #companies{
+    display: grid;
+    grid-column: span 2;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 0px 20px;
+}
+
 
 
 }
