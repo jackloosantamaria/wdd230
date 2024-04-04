@@ -5,7 +5,7 @@
                 "Half Day (3 hrs)": "$20",
                 "Full Day": "$30",
                 "Half Day (3 hours)": "$25",
-                "Full-Day": "35"
+                "Full-Day": "$35"
             }
         },
         "Honda Dio Scooter": {
@@ -43,7 +43,7 @@
         },
         "Jeep Wrangler - 2 door": {
             "4": {
-                "Half Day (3 hrs)": "60",
+                "Half Day (3 hrs)": "$60",
                 "Full Day": "$85",
                 "Half Day (3 hours)": "$70",
                 "Full-Day": "$90"
