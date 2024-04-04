@@ -86,4 +86,15 @@
         max-width: 600px;
     }
 
+    /************Companies********************/
+
+    #companies{
+        grid-column: span 2;
+        width: 100%;
+        display: grid;
+        gap: 1rem;
+        padding: 0px 20px;
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
+    }
+
 }
