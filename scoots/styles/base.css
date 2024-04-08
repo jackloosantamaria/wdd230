@@ -378,3 +378,30 @@ table#rentalTable th{
     border-radius: 20px;
     overflow: hidden;
 }
+
+/*****Banner***********************/
+
+.message{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #984700;
+    color: white;
+}
+
+
+#closeButton{
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
