@@ -97,4 +97,16 @@
         grid-template-columns: repeat(2, minmax(300px, 1fr));
     }
 
+    .message{
+        text-align: center;
+        justify-content: center;
+        margin-right: 10px;
+    }
+
+    #closeButton{
+        margin-left: 20px;
+        padding: 5px;
+       
+    }
+
 }
